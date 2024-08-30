@@ -1,0 +1,53 @@
+body {
+    background-image: url(gray-lined-paper-texture.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+table {
+    width: 80%;
+    margin: 40px auto;
+    background-color: rgb(124, 154, 167);
+}
+
+table.list {
+    text-align: center;
+    width: 100%;
+}
+
+td {
+    border: 1px solid rgb(204, 200, 200);
+    text-align: left;
+    padding: 8px 15px;
+}
+
+input[type="text"],input[type="number"] {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(165, 161, 161);
+    border-radius: 4px;
+}
+
+input[type="submit"],input[type="reset"] {
+    width: 30%;
+    padding: 6px 12px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 34px;
+    background: #eee;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover {
+background-color: lightblue;
+}
+
+input[type="reset"]:hover {
+    background-color: lightblue;
+    }
